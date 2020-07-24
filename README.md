@@ -1,4 +1,8 @@
-# lab-for-web-experiments
+# Lab for my Web Experiments
+
+## About the project
+
+A website that is showcasing web experiments.
 
 ## Build Setup
 
