@@ -4,10 +4,19 @@
       <div class="logo">
         <h1>Francesco Scheffczyk</h1>
         <h2>– Laboratory</h2>
-
-        <a href="mailto:francesco.scheffczyk@outlook.com">Contact</a>
       </div>
+      <a href="mailto:francesco.scheffczyk@outlook.com">Contact</a>
     </header>
+
+    <main>
+      <p>
+        <a href="">ig</a>
+        –
+        <a href="">li</a>
+        –
+        <a href="">gh</a>
+      </p>
+    </main>
   </div>
 </template>
 
