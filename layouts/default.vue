@@ -6,7 +6,7 @@
 
 <script>
 export default {
-  beforeMount() {
+  mounted() {
     if (!location.href.endsWith('/')) {
       window.location = location.href + '/'
     }
