@@ -19,14 +19,18 @@
       </p>
 
       <div class="marquee">
-        <p>Coming Soon</p>
+        <div class="track">
+          Coming Soon Coming Soon Coming Soon Coming Soon
+        </div>
       </div>
     </main>
   </div>
 </template>
 
 <script>
-export default {}
+export default {
+  name: 'ComingSoon',
+}
 </script>
 
 <style lang="scss" scoped>
@@ -84,8 +88,30 @@ export default {}
     position: absolute;
     bottom: 0;
     left: 0;
-    height: 30vh;
+    height: 45vh;
     width: 100%;
+    overflow: hidden;
+
+    font-family: 'Fracktif Medium', Arial, Helvetica, sans-serif;
+    font-size: 45vh;
+
+    .track {
+      white-space: nowrap;
+      will-change: transform;
+      // animation: marquee 15s linear infinite;
+
+      color: transparent;
+      -webkit-text-stroke: 1px white;
+    }
+
+    @keyframes marquee {
+      from {
+        transform: translateX(0);
+      }
+      to {
+        transform: translateX(-173%);
+      }
+    }
   }
 }
 </style>
