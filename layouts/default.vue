@@ -24,6 +24,11 @@ html {
   margin: 0;
 }
 
+::selection {
+  background-color: white;
+  color: black;
+}
+
 .layout {
   width: 100vw;
   height: 100vh;
