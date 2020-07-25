@@ -6,4 +6,14 @@
 export default {}
 </script>
 
-<style></style>
+<style>
+.container {
+  width: 100%;
+  height: 100%;
+
+  padding: 5%;
+
+  background-color: black;
+  color: white;
+}
+</style>
