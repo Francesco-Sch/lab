@@ -5,6 +5,7 @@
         <h1>Francesco Scheffczyk</h1>
         <h2>– Laboratory</h2>
       </div>
+
       <a href="mailto:francesco.scheffczyk@outlook.com">Contact</a>
     </header>
 
@@ -37,5 +38,20 @@ export default {}
 
   background-color: black;
   color: white;
+
+  header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    width: 100%;
+  }
+
+  h1 {
+    font-family: 'Fracktif Medium', Arial, Helvetica, sans-serif;
+  }
+  h2 {
+    font-family: 'Fracktif Medium', Arial, Helvetica, sans-serif;
+  }
 }
 </style>
