@@ -34,7 +34,7 @@ export default {}
   width: 100%;
   height: 100%;
 
-  padding: 5%;
+  padding: 3.5%;
 
   background-color: black;
   color: white;
@@ -45,13 +45,26 @@ export default {}
     justify-content: space-between;
 
     width: 100%;
-  }
 
-  h1 {
-    font-family: 'Fracktif Medium', Arial, Helvetica, sans-serif;
-  }
-  h2 {
-    font-family: 'Fracktif Medium', Arial, Helvetica, sans-serif;
+    h1 {
+      font-family: 'Fracktif Medium', Arial, Helvetica, sans-serif;
+      font-size: 1.75em;
+      margin: 0;
+    }
+    h2 {
+      font-family: 'Fracktif Medium', Arial, Helvetica, sans-serif;
+      font-size: 1.75em;
+      margin: 0;
+    }
+
+    a {
+      color: white;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
   }
 }
 </style>
