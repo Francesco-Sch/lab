@@ -1,0 +1,31 @@
+/* ----- Global Styling ----- */
+body {
+    font-family: 'Fracktif Regular', Arial, Helvetica, sans-serif;
+}
+
+/* --- Typography --- */
+@font-face{
+    font-family:"Fracktif Light";
+    src:url("../fonts/6061450/531d6efa-dbca-42c1-80cf-274e68ce4c11.woff2") format("woff2"),url("../fonts/6061450/04be40c6-f899-4b92-bdac-b7ae0ff6e2db.woff") format("woff");
+}
+@font-face{
+    font-family:"Fracktif Light Italic";
+    src:url("../fonts/6061456/94ce1982-026a-4a6d-a329-3a55560ce381.woff2") format("woff2"),url("../fonts/6061456/714b4b79-b4bc-4ca3-ace0-4daadb7c2240.woff") format("woff");
+}
+@font-face{
+    font-family:"Fracktif Regular";
+    src:url("../fonts/6061462/0a5716ae-36b4-4ca5-b737-5249e8de5658.woff2") format("woff2"),url("../fonts/6061462/cf920edc-4601-4f18-a3bd-34f9cdb4a3bc.woff") format("woff");
+}
+@font-face{
+    font-family:"Fracktif Regular Italic";
+    src:url("../fonts/6061470/33aec66c-f771-4ff5-9cd1-eeeed43338ab.woff2") format("woff2"),url("../fonts/6061470/cbbeb623-e099-4137-a77a-bc578ab066ff.woff") format("woff");
+}
+@font-face{
+    font-family:"Fracktif Semi Bold";
+    src:url("../fonts/6061486/6919e906-bab8-42b4-acd0-becbbd21757f.woff2") format("woff2"),url("../fonts/6061486/1f68ae45-feb3-47c7-8849-ca340e9364d7.woff") format("woff");
+}
+@font-face{
+    font-family:"Fracktif Semi Bold Italic";
+    src:url("../fonts/6061492/787b49ac-c9cd-4e84-b4b5-ef28020ae2ad.woff2") format("woff2"),url("../fonts/6061492/19939f65-c04e-4ce8-8ffb-10c0f580e9b7.woff") format("woff");
+}
+
