@@ -11,11 +11,11 @@
 
     <main>
       <p class="social">
-        <a href="">ig</a>
+        <a href="https://www.instagram.com/francesco.scheffczyk/">ig</a>
         –
-        <a href="">li</a>
+        <a href="https://www.linkedin.com/in/francesco-scheffczyk/">li</a>
         –
-        <a href="">gh</a>
+        <a href="https://github.com/Francesco-Sch">gh</a>
       </p>
 
       <div class="marquee">
