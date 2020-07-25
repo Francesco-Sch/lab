@@ -1,6 +1,6 @@
 ## Netlify Redirects
 [[redirects]]
-  from = "/kiosk-kultur/*"
+  from = "/kiosk-kultur"
   to = "https://fs-kisok-kultur-01.netlify.app/:splat"
   status = 200
   force = true
