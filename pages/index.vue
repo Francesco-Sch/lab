@@ -98,7 +98,7 @@ export default {
     .track {
       white-space: nowrap;
       will-change: transform;
-      // animation: marquee 15s linear infinite;
+      animation: marquee 15s linear infinite;
 
       color: transparent;
       -webkit-text-stroke: 1px white;
