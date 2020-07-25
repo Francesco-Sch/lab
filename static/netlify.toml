@@ -3,7 +3,6 @@
   from = "/kiosk-kultur"
   to = "/kiosk-kultur/"
   status = 200
-  force = true
 
 [[redirects]]
   from = "/kiosk-kultur/*"
