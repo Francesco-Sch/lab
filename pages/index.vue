@@ -16,6 +16,10 @@
         –
         <a href="">gh</a>
       </p>
+
+      <div class="marquee">
+        <p>Coming Soon</p>
+      </div>
     </main>
   </div>
 </template>
