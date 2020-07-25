@@ -2,8 +2,8 @@
 [[redirects]]
   from = "/kiosk-kultur"
   to = "/kiosk-kultur/"
-  status = 301
-  force = false
+  status = 200
+  force = true
 
 [[redirects]]
   from = "/kiosk-kultur/*"
