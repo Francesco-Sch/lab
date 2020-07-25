@@ -64,11 +64,13 @@ export default {
     h1 {
       font-family: 'Fracktif Medium', Arial, Helvetica, sans-serif;
       font-size: 1.75em;
+      font-weight: 400;
       margin: 0;
     }
     h2 {
       font-family: 'Fracktif Medium', Arial, Helvetica, sans-serif;
       font-size: 1.75em;
+      font-weight: 400;
       margin: 0;
     }
   }
