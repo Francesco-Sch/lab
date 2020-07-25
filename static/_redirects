@@ -1,0 +1,2 @@
+# Netlify Redirects
+/kiosk-kultur/* https://fs-kisok-kultur-01.netlify.app/:splat !200
