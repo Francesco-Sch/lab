@@ -10,7 +10,7 @@
     </header>
 
     <main>
-      <p>
+      <p class="social">
         <a href="">ig</a>
         –
         <a href="">li</a>
@@ -39,6 +39,17 @@ export default {}
   background-color: black;
   color: white;
 
+  a {
+    color: white;
+    text-decoration: none;
+
+    padding: 5px;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
   header {
     display: flex;
     flex-direction: row;
@@ -56,15 +67,25 @@ export default {}
       font-size: 1.75em;
       margin: 0;
     }
+  }
 
-    a {
-      color: white;
-      text-decoration: none;
+  main {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    height: 80%;
 
-      &:hover {
-        text-decoration: underline;
-      }
+    .social {
+      transform: rotate(90deg) translateY(-225%);
     }
+  }
+
+  .marquee {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 30vh;
+    width: 100%;
   }
 }
 </style>
