@@ -30,6 +30,8 @@ export default {
    ** Global CSS
    */
   css: [
+    // Node.js modules
+    'normalize.css',
     // SCSS file in the project
     '@/assets/css/main.scss',
   ],
