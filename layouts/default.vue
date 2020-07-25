@@ -4,6 +4,16 @@
   </div>
 </template>
 
+<script>
+export default {
+  beforeMount() {
+    if (!location.href.endsWith('/')) {
+      window.location = location.href + '/'
+    }
+  },
+}
+</script>
+
 <style>
 html {
   font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
